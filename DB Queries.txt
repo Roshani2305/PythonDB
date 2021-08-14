@@ -1,0 +1,19 @@
+mysql> use bookstoredb
+Database changed
+mysql> select * from books;
++----------+---------------------+---------------+-------------------+-----------------------+---------+---------+--------+
+| bookcode | bookname            | category      | author            | publication           | edition | price   | review |
++----------+---------------------+---------------+-------------------+-----------------------+---------+---------+--------+
+|     1001 | Think and Grow Rich | motivational  | Napolean Hill     | The Ralston Society   |       1 |     152 | Good   |
+|     1002 | Carry on Jeeves     | comedy        | P G Wodehouse     | Herbert Jenkins       |       1 |     149 | Best   |
+|     1003 | The Stand           | horror        | Stephen King      | Doubleday             |       2 |     480 | Good   |
+|     1004 | O Alquimista        | adventure     | Paulo Coelho      | Harper Torch          |       1 |     180 | Best   |
+|     1005 | A Promise Land      | autobiography | Barack Obama      | crown                 |       1 | 1181.86 | Good   |
+|     1006 | Gates of Fire       | historical    | Steven Pressfield | Doubleday             |       1 |     607 | Best   |
+|     1007 | Drive               | motivational  | Daniel H Pink     | Riverhead Hardcover   |       2 |     972 | Good   |
+|     1008 | Dracula             | horror        | Bram Stoker       | Archibald Constable   |       1 |     119 | Good   |
+|     1009 | Stardust            | adventure     | Neil Gaiman       | DC Comics             |       2 |     453 | Best   |
+|     1010 | Born Standing up    | comedy        | Steve Martin      | Simon and Schuster    |       1 |     988 | Best   |
+|     1011 | War and Peace       | Historical    | Leo Tolstoy       | The Russian Messenger |       1 |     299 | Best   |
++----------+---------------------+---------------+-------------------+-----------------------+---------+---------+--------+
+11 rows in set (0.00 sec)
